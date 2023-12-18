@@ -10,7 +10,7 @@ public class SecondLargestElement {
 					temp =input[i];
 					input[i]=input[j];
 					input[j]= temp;
-					
+					//22,23,45,67,98
 					
 				}
 				
