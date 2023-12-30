@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	 
 	 while( i<len1 && j<len2) {
 		 if(a[i]<b[j]) {
-			 result[k++] = a[i++];
+			 result[k++]= a[i++];
 			 
 		 }else {
 			result[k++]= b[j++]; 

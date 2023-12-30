@@ -26,7 +26,8 @@ public class LongestSubstringWithoutRepeatingChar {
 			
 		}
 		System.out.println(count);
-		
+		//Approach is Sliding window.
+		//using 2 pointers
 	}
 
 }

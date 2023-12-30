@@ -12,10 +12,10 @@ public class StringAnagram {
 		
 		Arrays.sort(c1);	
 		Arrays.sort(c2);
-		System.out.println(c1);
-		System.out.println(c2);
+		 
+		boolean status = Arrays.equals(c1, c2);
 
-		if(c1==c2) {
+		if(status) {
 			System.out.println("Anagram");
 			
 		}else {
