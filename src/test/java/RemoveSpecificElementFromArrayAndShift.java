@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class RemoveSpecificElementFromArrayAndShift {
 	public static void main(String[] args) {
-		int arr [] = {12,13,14,15};
+		int arr [] = {12,13,14,15,16};
 		int key= 2;
 		if(key>=0 && key<arr.length) {
 		for(int i=key;i<arr.length-1;i++) {

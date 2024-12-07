@@ -3,7 +3,7 @@ public class CheckTwoArraysDiffMethod {
 	
 	public static void main(String[] args) {
 		int a [] = {12,13,14,15};
-		int b[] = {12,13,14,16};
+		int b[] = {12,13,14,15};
 		boolean result = true;
 		if(a.length==b.length) {
 			for(int i = 0;i<a.length;i++) {
